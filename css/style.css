@@ -1,0 +1,67 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+* {
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #d1b384;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+h1 {
+    font-size: 4.0rem;
+    line-height: 4.62rem;
+    margin: 2.1rem 0 1.68rem 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.responsive-img.gallery {
+    margin-top: -7px;
+}
+
+.responsive-img {
+    margin-top: 18px;
+}
+
+div.col.s6 {
+    margin-bottom: 20px;
+}
+
+div.input-field.col.s12 {
+    margin-top: 80px;
+}
+
+div.input-field.col.s6 label {
+    color: #ffffff;
+}
+
+div.input-field.col.s12 label {
+    color: #ffffff;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #fff;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.video-container {
+    margin: 10px;
+}
